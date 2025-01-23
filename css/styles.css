@@ -160,7 +160,7 @@ nav a:hover {
 }
 
 .menu {
-  height: 100vh;
+  height: 110vh;
   width: auto;
   background-color: #7e685b;
   color: #fff;
@@ -171,8 +171,8 @@ nav a:hover {
 .menu h2 {
   text-align: center;
   font-size: 30px;
-  margin-top: 50px;
-  padding-top: 80px;
+  margin-top: 30px;
+  padding-top: 30px;
   color: #fff;
 }
 
