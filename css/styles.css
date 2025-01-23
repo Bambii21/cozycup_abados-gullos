@@ -163,17 +163,53 @@ nav a:hover {
   height: 100vh;
   width: auto;
   background-color: #7e685b;
-  
-  
+  color: #fff;
+  font-family: 'Arial', sans-serif;
+  padding: 20px;
 }
 
 .menu h2 {
-
   text-align: center;
   font-size: 30px;
   margin-top: 50px;
-  padding-top:80px ;
-  
+  padding-top: 80px;
+  color: #fff;
+}
+
+.menu h3 {
+  font-size: 24px;
+  color: #fff;
+  margin-top: 30px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.menu ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.menu ul li {
+  font-size: 18px;
+  color: #ddd;
+  padding: 8px 0;
+  border-bottom: 1px solid #9e8e7b;
+}
+
+.menu ul li:last-child {
+  border-bottom: none;
+}
+
+.menu ul li span {
+  font-weight: bold;
+  color: #fff;
+}
+
+
+.menu ul li:hover {
+  background-color: #9e8e7b;
+  color: #fff;
+  cursor: pointer;
 }
 
 .about {
