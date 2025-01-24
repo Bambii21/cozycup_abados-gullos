@@ -169,9 +169,12 @@ nav a:hover {
 
 .menu {
   height: auto;
-  width: auto;
-  background-color: #fffafa00;
+  width: 100%;
+  background-color: transparent;
   background-image: url('../img/menubg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   color: #fff;
   font-family: 'Arial', sans-serif;
   margin: 0;  
