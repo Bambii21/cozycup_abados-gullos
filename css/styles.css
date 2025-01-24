@@ -21,7 +21,7 @@ header {
     position: sticky;
     top: 0; 
     z-index: 1000; 
-    background-color: #ffffffb7; 
+    background-color: #ffffff; 
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
     padding: 10px; 
     overflow: hidden;
@@ -168,21 +168,57 @@ nav a:hover {
 }
 
 .menu {
-  height: 100vh;
+  height: 110vh;
   width: auto;
-  background-color: #cab1a2;
-  
-  
+  background-color: #7e685b;
+  color: #fff;
+  font-family: 'Arial', sans-serif;
+  padding: 20px;
 }
 
 .menu h2 {
-
   text-align: center;
   font-size: 30px;
-  margin-top: 0px;
-  padding-top:80px ;
-  
+  margin-top: 30px;
+  padding-top: 30px;
+  color: #fff;
 }
+
+.menu h3 {
+  font-size: 24px;
+  color: #fff;
+  margin-top: 30px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.menu ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.menu ul li {
+  font-size: 18px;
+  color: #ddd;
+  padding: 8px 0;
+  border-bottom: 1px solid #9e8e7b;
+}
+
+.menu ul li:last-child {
+  border-bottom: none;
+}
+
+.menu ul li span {
+  font-weight: bold;
+  color: #fff;
+}
+
+.menu ul li:hover {
+  background-color: #9e8e7b;
+  color: #fff;
+  cursor: pointer;
+}
+
 
 .about {
   padding: 100px 0;
