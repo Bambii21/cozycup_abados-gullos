@@ -202,7 +202,7 @@ nav a:hover {
 
 .contact h2 {
   font-size: 30px;
-  margin-bottom: 20px;
+  margin-bottom: 100px;
 }
 
 .contact p {
@@ -216,3 +216,27 @@ footer {
   text-align: center;
   padding: 20px 0;
 }
+footer {
+  padding: 20px 0; 
+  text-align: center;
+}
+
+.imgcont {
+  display: flex; 
+  justify-content: center; 
+  gap: 20px; 
+  align-items: center;
+}
+
+.icon img {
+  width: 60px; 
+  height: 60px;
+  border-radius: 50%; 
+  transition: transform 0.3s ease;
+}
+
+.icon img:hover {
+  transform: scale(1.2);
+  cursor: pointer; 
+}
+
