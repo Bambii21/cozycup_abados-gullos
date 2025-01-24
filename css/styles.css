@@ -1,4 +1,4 @@
-/* Reset some default styles */
+
 body,
 h1,
 h2,
@@ -117,33 +117,34 @@ nav a:hover {
 }
 
 .hero {
-  /*text-align: center;*/
-  padding: 40px 0;
-  background-image: url("hero-bg.jpg");
+  position: relative;
+  text-align: center;
+  padding: 150px 0;
+  background-image: url('../img/bg1.jpg');
   background-size: cover;
-  color: rgb(255, 255, 255);
-  
+  background-position: center;
+  background-repeat: no-repeat;
+  color: rgb(239, 239, 239);
 }
 
 .hero h1 {
  
   font-size: 66px;
-  margin-bottom: 5px;
+  margin-bottom: 0px;
+  color: #fbfb0f;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
 .hero h2 {
     font-size: 66px;
     margin-bottom: 8px;
+    color: #D3D3D3;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
   }
 
 .hero h3 {
   font-size: 30px;
-}
-
-.hero p {
-  font-size: 20px;
-  margin-top: 15px;
-  margin-bottom: 40px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
 .cta-button {
@@ -153,10 +154,17 @@ nav a:hover {
   color: white;
   text-decoration: none;
   border-radius: 5px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .cta-button:hover {
   background-color: #7e685b;
+}
+
+.hero, .menu {
+  display: block;
 }
 
 .menu {
@@ -171,7 +179,7 @@ nav a:hover {
 
   text-align: center;
   font-size: 30px;
-  margin-top: 50px;
+  margin-top: 0px;
   padding-top:80px ;
   
 }
