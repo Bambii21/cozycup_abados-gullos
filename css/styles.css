@@ -168,26 +168,28 @@ nav a:hover {
 }
 
 .menu {
-  height: 110vh;
+  height: auto;
   width: auto;
-  background-color: #7e685b;
+  background-color: #fffafa00;
+  background-image: url('../img/menubg.jpg');
   color: #fff;
   font-family: 'Arial', sans-serif;
-  padding: 20px;
+  margin: 0;  
+  padding: 20px 10px;
 }
 
 .menu h2 {
   text-align: center;
   font-size: 30px;
-  margin-top: 30px;
-  padding-top: 30px;
+  margin: 20px 0;
+  padding-top: 10px;
   color: #fff;
 }
 
 .menu h3 {
   font-size: 24px;
   color: #fff;
-  margin-top: 30px;
+  margin-top: 20px;
   text-transform: uppercase;
   letter-spacing: 2px;
 }
@@ -199,7 +201,7 @@ nav a:hover {
 
 .menu ul li {
   font-size: 18px;
-  color: #ddd;
+  color: #ffffff;
   padding: 8px 0;
   border-bottom: 1px solid #9e8e7b;
 }
@@ -391,4 +393,3 @@ footer {
   transform: scale(1.2);
   cursor: pointer; 
 }
-
